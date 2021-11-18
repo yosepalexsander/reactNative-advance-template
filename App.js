@@ -1,5 +1,5 @@
 //Import React Native Gesture Handler
-
+import "react-native-gesture-handler";
 import * as React from "react";
 
 // Import 'NativeBaseProvider' component
@@ -7,11 +7,7 @@ import { NativeBaseProvider, extendTheme } from "native-base";
 
 // Import font with Expo
 import AppLoading from "expo-app-loading";
-import {
-  useFonts,
-  BalsamiqSans_400Regular,
-  BalsamiqSans_400Regular_Italic,
-} from "@expo-google-fonts/balsamiq-sans";
+import { useFonts, BalsamiqSans_400Regular, BalsamiqSans_400Regular_Italic } from "@expo-google-fonts/balsamiq-sans";
 
 // Import Container
 import Container from "./Container";
